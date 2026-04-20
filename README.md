@@ -17,3 +17,7 @@ python -m pip install -r Requiraments.txt
 
 4. this line is to run the server. copy & paste this command line in your terminal/command prompt:
 python -m uvicorn Main:app --reload --port 8000
+
+5. to check if the backend is running, put this URL in the browser: http://localhost:8000/health. if a json returned with the status of 'AI scenario backend running', your backend is running.
+
+6. run the frontend : https://github.com/moua0061/CET-Succession 
